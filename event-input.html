@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Input Form</title>
+</head>
+<body>
+    <h1>Event Input Form</h1>
+    <form action="submit_event.php" method="post">
+        <label for="eventName">Event Name:</label>
+        <input type="text" id="eventName" name="eventName" required><br><br>
+
+        <label for="eventDate">Event Date:</label>
+        <input type="date" id="eventDate" name="eventDate" required><br><br>
+
+        <label for="eventTime">Event Time:</label>
+        <input type="time" id="eventTime" name="eventTime" required><br><br>
+
+        <label for="eventDescription">Description:</label>
+        <textarea id="eventDescription" name="eventDescription" rows="4" cols="40"></textarea><br><br>
+
+        <button type="submit">Submit Event</button>
+    </form>
+</body>
+</html>
